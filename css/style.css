@@ -162,9 +162,8 @@ hr.style14 {
 	height: 100px;
 	width: 650px;
 	position: relative;
-	left: 120px;
+	left: 108px;
 	top: 150px;
-
 }
 
 .paragraphOneDiv p {
@@ -187,6 +186,7 @@ hr.style14 {
 	font-size: 20px;
 	border: 1px solid #13b3bf;
 	border-radius: 3px;
+	right: 12px;
 }
 
 .styleDownloadResume:hover {
@@ -463,13 +463,16 @@ hr.style14 {
     line-height: normal;
     letter-spacing: normal;
 	font-family: 'Roboto Slab', serif;
-}
 
+}
 
 .footerWrap {
 	position: relative;
 	right: 45px;
 }
+
+
+
 
 
 
