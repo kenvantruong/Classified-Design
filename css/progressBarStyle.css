@@ -12,6 +12,7 @@
 
 html, body {
   height: 100%;
+  /* width: 80%; */
 }
 
 body {
@@ -149,6 +150,8 @@ body {
 .controls {
   text-align: center;
   font-size: 12px;
+  position:  relative;
+  top: 20px;
 }
 
 .trigger {
@@ -156,10 +159,10 @@ body {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   padding: 6px 8px;
-  border: none;
+  border: 1px solid #13b3bf;
   font: 14px inherit;
   text-shadow: 0px 1px 1px rgba(251, 251, 251, 0.75);
-  color: black;
+  color: #000;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JiYmJiYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzk1OTU5NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #959595));
