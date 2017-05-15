@@ -253,13 +253,13 @@ hr.style14 {
 .latesth2Div {
 	position: relative;
 	left: 45px;
-	top: 15px;
+	top: 45px;
 	font-family: 'Roboto Slab', serif;
 }
 
 #githubPortfolioDiv {
 	position: relative;
-	top: 250px;
+	top: 200px;
 	left: 380px;
 	width: 500px;
 	height: 100px;
