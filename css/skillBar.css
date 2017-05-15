@@ -1,0 +1,74 @@
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	height:50px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	
+	top: 0;
+	left: 0;
+    width: 175px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	font-family: 'Roboto Slab', serif;
+	font-size:18px;
+	color:#fff;
+	-webkit-border-top-left-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:#none;
+	padding:0 1px 2px;
+	height:15px;
+	line-height:15px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:15px;
+	width:0px;
+	background:#ffffff;
+	border: 1px solid #11a7b2;
+	border-radius:1px;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:0px;
+	top:0;
+	font-size:18px;
+	height:10px;
+	line-height:10px;
+	color:#fff;
+	font-family: 'Roboto Slab', serif;
+}
