@@ -32,6 +32,8 @@
 
 /* iPhone 6: from 0 to 480px   */
 @media only screen and (max-width: 480px) {
+
+
 	.bg1 {
 	background: -webkit-linear-gradient(bottom, rgba(113,122,139,1) 0%,rgba(113,122,139,.3) 100%), url(../img/1-mobile.jpg);
 	background-repeat: no-repeat;
@@ -174,7 +176,7 @@
 	}
 	
 	.parygraphTHO {
-		font-size: 15px !important;
+		font-size: 13px !important;
 	}
 	
 
@@ -237,7 +239,7 @@ form #input-submit {
     position: relative !important;
     left: 3px !important;
     bottom: 890px;
-    height: 555px;
+    height: 582px;
     width: 366px;
 }
 
@@ -251,10 +253,17 @@ form #input-submit {
 		
 
 .KlogoFooter {
-    position: relative;
-    left: 15px;
+    position: relative!important;
+    left: 15px !important;
 
 }
+
+
+.footerWrap {
+	position: relative !important;
+	right: -21px !important;
+}
+
 
 
 
@@ -262,8 +271,6 @@ form #input-submit {
 	
 	
 }
-
-
 
 
 
