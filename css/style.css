@@ -153,7 +153,7 @@ hr.style14 {
 	width: 120px;
 	position: relative;
 	left: 360px;
-	top: 60px;
+	top: 30px;
 	font-size: 30px;
 	color: skyblue;
 }
@@ -163,24 +163,23 @@ hr.style14 {
 	width: 650px;
 	position: relative;
 	left: 108px;
-	top: 150px;
+	top: 143px;
 }
 
 .paragraphOneDiv p {
 	color: white;
 	position: relative;
-	bottom: 40px;
+	bottom: 80px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 
-#downloadResumeNow {
-}
+#downloadResumeNow {position: relative;left: 5px;}
 
 .styleDownloadResume {
 	position: relative;
-	top: 355px;
+	top: 368px;
 	color: white;
 	padding: 14px;
 	font-size: 20px;
@@ -225,9 +224,9 @@ hr.style14 {
 #roadToSuccessDiv {
 	position: relative;
 	margin-top: 150px;
+	left: 10px;
 	color: #fff;
 	font-family: 'Roboto Slab', serif;
-	
 }
 
 
@@ -466,12 +465,12 @@ hr.style14 {
 
 }
 
+
+
 .footerWrap {
 	position: relative;
-	right: 45px;
+	right: 55px;
 }
-
-
 
 
 
