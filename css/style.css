@@ -466,7 +466,10 @@ hr.style14 {
 }
 
 
-
+.footerWrap {
+	position: relative;
+	right: 45px;
+}
 
 
 
