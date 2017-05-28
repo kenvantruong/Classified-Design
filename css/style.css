@@ -278,8 +278,9 @@ hr.style14 {
 
 .latesth2Div {
 	position: relative;
-	left: 45px;
-	top: 45px;
+	left: -80px;
+	top: -45px;
+	/* bottom: 10px; */
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -439,7 +440,7 @@ hr.style14 {
 /****************BACKGROUND 7 DIV!!!! LAST PART**************/
 .bg7div {
 	position: relative;
-	left: 200px;
+	left: 205px;
 	text-align: center;
 	bottom: 180px;
 	height: 555px;
@@ -589,6 +590,11 @@ a {/* color: #618bbf; */}
   /* box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75); */
 }
 
+.wPortfolio {
+	position: relative;
+	left: 100px;
+}
+
 ul.imglist { display: block; margin-bottom: 0px; }
 ul.imglist li { display: block; float: left; margin-right: 11px; margin-bottom: 12px; }
 ul.imglist li a img { display: block; }
@@ -611,12 +617,12 @@ html[xmlns] .clearfix { display: block; }
 
 .history-tl-container{
     font-family: "Roboto",sans-serif;
-  width: 100%;
-  margin:auto;
-  display:block;
-  position:relative;
-  top: 75px !important;
-  left: 100px;
+    width: 100%;
+    margin:auto;
+    display:block;
+    position:relative;
+    top: 75px !important;
+    left: 90px;
 }
 .history-tl-container ul.tl{
     margin:20px 0;
@@ -1007,8 +1013,6 @@ nav.active-nav .rad-menu li a {
 .crop {
   overflow: hidden;
 }
-
-
 
 
 
