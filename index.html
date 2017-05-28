@@ -4,18 +4,20 @@
 <meta charset="UTF-8">
 
 <!--Responive Design-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
 <title>Ken Truong</title>
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="scss/style.scss">
 <link rel="stylesheet" href="css/queries.css">
 <link rel="stylesheet" href="css/progressBarStyle.css">
 <link rel="stylesheet" href="css/skillBar.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel='stylesheet prefetch' href='http://ksylvest.github.io/jquery-lighter/stylesheets/jquery.lighter.css'>
-<link href="https://fonts.googleapis.com/css?family=Bangers|Erica+One|Satisfy|Archivo+Black|Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bangers|Erica+One|Satisfy|Archivo+Black|Roboto+Slab|Open+Sans" rel="stylesheet">
 
 
 
@@ -23,48 +25,34 @@
 
 </head>
 <body>
+<a name="HOMELink"></a>	
 <div class="bg1">
 	<div class="topHeaderbg">
-		<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-     <div class="buttonCollapsed">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      </div>
-      <div class="KlogoDiv"><h1 class="Klogo"></h1></div>
-    </div>
-   
+		<div id="inner-content">
+  <div class="mobile-nav-container"></div><!-- .mobile-nav-container -->
+  <div class="mobile-nav-btn">
+    <img class="nav-open" src="fonts/nav-open.png" alt="Nav Button Open" />
+    <img class="nav-close" src="fonts/nav-close.png" alt="Nav Button Close" />
+  </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    
-     <div id="topHeaderPosition">
-      <ul class="nav navbar-nav">
-        <li><a href="#" class="homeStyle">HOME</a></li>
-        <li><a href="#professionalLink">PROFESSIONAL</a></li>
-        <li><a href="#portfolioLink">PORTFOLIO</a></li>
-        <li><a href="#experienceLink">EXPERIENCE</a></li>
-        <li><a href="#contactLink">CONTACT</a></li>
-          </ul>
-            </div>
-        </li>
-      </ul>
-         
-
-        </li>
-      </ul>
-   <!-- /.navbar-collapse -->
+  <nav class="rad-nav">
+    <div class="title-area">
+       <h1 class="logo">
+         <a href="#"></a>
+       </h1>
     </div>
-  </div><!-- /.container-fluid -->
-</nav>
-<hr class="hrstyle14">
+
+    <ul class="rad-menu">
+         <li><a href="#HOMELink" class="">HOME</a></li>
+          <li><a href="#professionalLink" class="">PROFESSIONAL</a></li>
+          <li><a href="#portfolioLink" class="">PORTFOLIO</a></li>
+          <li><a href="#experienceLink" class="">EXPERIENCE</a></li>
+          <li><a href="#contactLink" class="">CONTACT</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!--<hr class="hrstyle14">-->
 	</div>
 	
 	<div id="imDiv">
@@ -73,27 +61,33 @@
 			<div id="kenTruongDiv">
 		<h2 class="kenTruongWord"><div class="iM">I<span class="styleSingleQuote">'</span>M</div> KEN TRUONG<span class="dot">.</span></h2>
 		</div>
-		
+	
+	
+				
 				<div id="webDeveloperDiv">
-		<h2 class="webDeveloperWord">Web Developer</h2>
+		<h2 class="webDeveloperWord">Jr. Web Developer</h2>
+		<h2 class="webDeveloperWordTwo">Aspiring Full Stack Web Engineer</h2>
 		</div>
 		
 		<hr class="style14">
 	</div>	
 	
+	<div class="resumeDivWrappa">
 		<div id="downloadResumeDiv">
 			<div class="KLargeLogoDiv"><h1 class="KLargeLogo"></h1></div>
 			<div class="paragraphOneDiv">
-			<p class="parygraphTHO">Welcome to my very own Portfolio Website! I'm Ken Truong and I'm a Web Developer. I have a passion for building websites from the ground up. Over the past months, I spent countless hours perfecting my skills in HTML5/CSS3 & JAVASCRIPT. I believe I can build any design you could imagine. I work with Real Estate, Restaurants, Digital Agency, and even E-commerce websites. I make sure my websites are at their top notch, fully functional and responsive for all devices. So that being said it’s time for you to throw me your ideas and just kick back, relax and watch your dream site comes to life. Please check out my resume on the link below and don’t hesitate to contact me anytime. </p>
+			<p class="parygraphTHO">Welcome to my very own Portfolio Website! I'm Ken Truong and I'm an Aspiring Full Stack Developer. I have a passion for strategizing and designing websites from the ground up. Over the past months, I spent countless hours perfecting my skills in core web development languages such as HTML5/CSS3 & Javascript. I am forever a student and my knowledge will continue to grow. At this very moment you are reading this. I'am out studying new languages and figuring out new ways to improve my skills. I believe I can build any websites you could imagine. I had done work with Real Estate, Restaurants, Digital Agency, and even E-commerce websites. I make sure they are at their top notch, fully functional and ready to be used. So that being said comon now, throw me your ideas and let's make this magic happen. Please check out my resume on the link below and don’t hesitate to contact me anytime.</p>
 			</div>
 			<div id="downloadResumeNow">
 			<a href="web/viewer.html?file=resume.pdf" class="styleDownloadResume">VIEW RESUME</a>
 		    </div>
 
 		</div>
+	</div>
 	
-	
+
 </div>
+
 <div class="bg2"></div>
 <div class="bg3">  
 
@@ -112,28 +106,28 @@
   
 
 <div class="skillbar clearfix " data-percent="88%">
-	<div class="skillbar-title"<span>HTML & CSS</span></div>
+	<div class="skillbar-title position_title"<span>HTML & CSS</span></div>
 	<div class="skillbar-bar" style="background: #13b3bf;"></div>
 	<div class="skill-bar-percent">Proficient</div>
 </div> 
 <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="66%">
-	<div class="skillbar-title"<span>Javascript</span></div>
+<div class="skillbar clearfix " data-percent="80%">
+	<div class="skillbar-title position_javascript"<span>Javascript</span></div>
 	<div class="skillbar-bar" style="background: #13b3bf;"></div>
-	<div class="skill-bar-percent">Intermediate</div>
+	<div class="skill-bar-percent">Proficient</div>
 </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="70%">
+<div class="skillbar clearfix " data-percent="85%">
 	<div class="skillbar-title"<span>Adobe Photoshop</span></div>
 	<div class="skillbar-bar" style="background: #13b3bf;"></div>
-	<div class="skill-bar-percent">Intermediate</div>
+	<div class="skill-bar-percent">Proficient</div>
 </div> 
 <!-- End Skill Bar -->
 
 
 <div class="skillbar clearfix " data-percent="100%">
-	<div class="skillbar-title"<span>Google Skills</span></div>
+	<div class="skillbar-title position_title"<span>Google Skills</span></div>
 	<div class="skillbar-bar" style="background: #13b3bf;"></div>
 	<div class="skill-bar-percent">Professional</div>
 </div> <!-- End Skill Bar -->
@@ -167,10 +161,10 @@
         <span class="label">Javascript & jQuery</span>
       </li>
       <li class="progress-point">
-        <span class="label">Node.js</span>
+        <span class="label">PHP & MySQL</span>
       </li>
       <li class="progress-point">
-        <span class="label">PHP & MySQL</span>
+        <span class="label">Node.js</span>
       </li>
     </ul>
   </div>
@@ -180,7 +174,7 @@
   
   <!-- Demo only -->
   <div class="controls">
-    <button class="trigger">Tunnel Vision!</button>
+    <button class="trigger btn btn-info">Tunnel Vision!</button>
   </div>
 </div>
   </div>
@@ -200,10 +194,10 @@
      
        <li><a href="https://kenvantruong.github.io/Lonely-Fisherman-Restaurant/"><img src="projectimg/lonelyfishermanrestaurant.png" width="300" height="200"></a></li>
        <li><a href="https://kenvantruong.github.io/Real-Estate/"><img src="projectimg/RealEstate.png" width="300" height="200"></a></li>
-      <li><a href="https://kenvantruong.github.io/Dawg-Furrfect/"><img src="projectimg/dawgfurrfect.png" width="300" height="200"></a></li>
+       <li><a href="https://kenvantruong.github.io/Mount-Bromo/"><img src="projectimg/mountbromo.png" width="300" height="200" ></a></li> 
       <li><a href="https://kenvantruong.github.io/Netflix-Project/"><img src="projectimg/netflix.png" width="300" height="200"></a></li>
       <li><a href="https://kenvantruong.github.io/Trello-Website/"><img src="projectimg/trello.png" width="300" height="200"></a></li>
-      <li><a href="https://kenvantruong.github.io/Mount-Bromo/"><img src="projectimg/mountbromo.png" width="300" height="200" ></a></li>
+      <li><a href="https://kenvantruong.github.io/Dawg-Furrfect/"><img src="projectimg/dawgfurrfect.png" width="300" height="200"></a></li>
 
       
     </ul>
@@ -235,7 +229,7 @@
       <div class="timestamp">
         20 April 2017 - <br> 11 May 2017
       </div>
-      <div class="item-title">Full Stack Development Mentorship: Joe Santos Garia</div>
+      <div class="item-title">Web Development Mentorship: Joe Santos Garia</div>
       <div class="item-detail">4 Week Program</div>
 <div class="item-detail">CodingPhase.com</div>
       
@@ -287,17 +281,19 @@
    <a name="contactLink"></a>
     <div class="contactMeDiv">
     <h2 class="contactmeTEXT">Contact Me</h2>
-<form class="cf">
+<form class="cf "method="post" action="contact-proc.php">
   <div class="half left cf">
-    <input type="text" id="input-name" placeholder="Name">
-    <input type="email" id="input-email" placeholder="Email address">
-    <input type="text" id="input-subject" placeholder="Subject">
+    <input name="name" type="text" id="input-name" placeholder="Name">
+    <input name="email" type="email" id="input-email" placeholder="Email address">
+    <input name="message" type="text" id="input-subject" placeholder="Message">
   </div>
   <div class="half right cf">
     <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
   </div>  
-  <input type="submit" value="Submit" id="input-submit">
+  <input name ="submit" type="submit" value="Submit" id="input-submit">
 </form>
+ 
+ 
   </div>
   
   <div class="socialMedia">
@@ -357,7 +353,7 @@
 
 <script src="javascript/skillBar.js"></script>
 <script src="javascript/index.js"></script>
-<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/javascript/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
