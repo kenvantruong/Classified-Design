@@ -1,4 +1,5 @@
-@import "compass/css3";
+
+@import "grid/grid12";
 
 .progress {
   width: 100%;
@@ -17,3 +18,238 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+// All the fontz
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+// Color Theory
+$radblue: #158ECE;
+$radwhite: #dcdbd7;
+$ltblue: #238eec;
+$ltgold: #fdb32b;
+$ltgrey: #58595b;
+$grey: #ddd;
+$coal: #333;
+$white: #fefefe;
+
+// Breakpoints
+$break-small: 700px;
+$break-large: 1200px;
+
+// Global Things
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  color: $coal;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+a{
+  color: $radblue;
+  text-decoration: none;
+}
+
+// Container Things
+#inner-container{
+  margin: 0;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  .active-nav &{
+    background: $coal;
+  }
+}
+.content{
+  margin: 75px 0 0;
+  padding: 10px;
+  width: 100%;
+  p{
+    margin: 0 0 10px;
+    width: 100%;
+  }
+}
+
+// If you give a nav a mobile...
+nav{
+  background: $white;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.4);
+  height: 65px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+  .title-area .logo{
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/6214/2015-RaD-Logo.jpg');
+    background-position: 15px 5px;
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    float: left;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 125px;
+  }
+  ul{
+    margin: 0;
+    overflow: hidden; // does a clearfix
+    padding: 0;
+  }
+  li{
+    float: left;
+    list-style: none;
+    a{
+      color: $coal;
+    }
+    a:hover, a:focus{
+      color: $radblue;
+      text-decoration: none;
+    }
+  }
+  .rad-menu{
+    float: right;
+    @media (max-width: 700px) {
+      display: none;
+    }
+    li a{
+      border-top: 2px solid $white;
+      cursor: pointer;
+      height: 65px;
+      display: block;
+      padding: 20px 15px;
+      width: 100%;
+      &:hover, &:focus{
+        border-top: 2px solid $radblue;
+      }
+    }
+  }
+  &.active-nav{
+    background: $coal;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    position: absolute;
+    width: 100%;
+    .title-area .logo{
+      background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/6214/2015-RaD-Logo-Dark.png');
+    }
+    .rad-menu {
+      display: block;
+      float: none;
+      padding-top: 10px;
+      width: 100%;
+      li{
+        color: $white;
+        display: block;
+        float: none;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        opacity: 0;
+        text-align: left;
+        a{
+          border-top: none;
+          color: $radwhite;
+        }
+      }
+    }
+  }
+}
+
+//Mobile Nav Button
+.mobile-nav-container{
+  background: $coal;
+  color: $coal;
+  display: none;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50px;
+  z-index: 10;
+  @media (max-width: 700px)     {
+    display: block;
+  }
+  &.active-nav{
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+.mobile-nav-btn .nav-open {
+  display: block;
+}
+.mobile-nav-btn .nav-close {
+  display: none;
+}
+
+.mobile-nav-btn.active-nav .nav-open {
+  display: none;
+}
+.mobile-nav-btn.active-nav .nav-close {
+  display: block;
+}
+
+.mobile-nav-btn{
+  background: $radblue;
+  overflow: visible;
+  display: none;
+  height: 65px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 65px;
+  z-index: 100;
+  &.active-nav{
+  background: $ltgold;
+  }
+  img{
+    margin: 30%;
+  }
+  @media (
+  max-width: 700px)     {
+    display: block;
+  }
+}
+.active-nav .rad-menu li.show-nav{
+  display: block;
+  opacity: 1;
+  @include transition(all .25s ease-out);
+}
+.nav-open, .nav-close{
+  width: 40%;
+}
+.crop{
+  overflow: hidden;
+}
