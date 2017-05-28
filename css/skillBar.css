@@ -21,10 +21,9 @@
 }
 
 .skillbar-title {
-	
 	top: 0;
 	left: 0;
-    width: 175px;
+	width: 170px;
 	font-weight: normal;
 	letter-spacing: 0.05em;
 	font-family: 'Roboto Slab', serif;
@@ -37,6 +36,18 @@
 	border-top-left-radius:2px;
 	border-bottom-left-radius:2px;
 }
+
+.position_title {
+	position: relative;
+	left: -24px;
+}
+
+.position_javascript {
+	position: relative;
+	left: -32px;
+}
+
+
 
 .skillbar-title span {
 	display:block;
