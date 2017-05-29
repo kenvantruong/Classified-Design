@@ -1016,5 +1016,97 @@ nav.active-nav .rad-menu li a {
 
 
 
+/*FORM CSS!!*/
+
+.nameFormDiv {
+	position: relative;
+	bottom: 9px;
+	left: 156px;
+	width: 150px;
+}
+
+.emailFormDiv {
+	position: relative;
+	top: -9px;
+	left: 78px;
+	width: 150px;
+}
+
+#message {
+	position: relative;
+	bottom: 17px;
+	width: 310px;
+	height: 170px;
+	left: 311px;
+	
+}
+
+.positionDangerO {
+	position: relative;
+	left: 170px;
+	bottom: 17px;
+}
+
+#submitMessageDiv {
+	position: relative;
+	left: 165px;
+	width: 310px;
+	bottom: 15px;
+	background-color: #13b3bf;
+	border-color: #13b3bf;
+}
+
+.text-danger {
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+    font-family: 'Roboto Slab', serif !important;
+}
 
 
+
+/*SIDE INFO ON CONTACT PAGE!!!!*/
+
+/*
+<div id="leftsideContactDiv">      
+   <h3 class="KVTname">Ken Truong</h3>
+   <p class="contactPPP">DonÃ¢â‚¬â„¢t hesitate to contact me anytime!</p>
+  <div class="ppEmailNTel">
+   <h6>kenvantruong@gmail.com</h6>
+   <h6>Tel: 1-707-334-9626</h6>
+   </div>
+</div> */
+
+#leftsideContactDiv {
+	color: #fff;
+	width: 307px;
+	height: 260px;
+	/* background-color: red; */
+	position: absolute;
+	/* display: inline-block; */
+	right: 410px;
+	top: 90px;
+}
+
+.KVTname {
+	text-align: left;
+	font-family: 'Bangers', cursive;
+	position: relative;
+	bottom: 14px;
+}
+
+.contactPPP {
+	color: #fff;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	/* margin-bottom: 10px; */
+	line-height: 25px;
+}
+
+.ppEmailNTel {
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	/* top: 30px !important; */
+	position: relative;
+	top: 18px;
+}

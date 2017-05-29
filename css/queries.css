@@ -318,6 +318,57 @@ ul.tl li .timestamp {
 
 }
 
+/*NEW FORM INFO!!!	*/
+/*FORM CSS!!*/
+
+.nameFormDiv {
+	position: relative;
+	bottom: 9px;
+	left: 10px;
+	width: 150px;
+}
+
+.emailFormDiv {
+	position: relative;
+	top: -34px;
+	left: 95px;
+	/* bottom: 20px; */
+	width: 150px;
+}
+
+#message {
+	position: relative;
+	top: -55px;
+	bottom: 57px;
+	width: 310px;
+	height: 170px;
+	left: 26px;
+}
+
+.positionDangerO {
+	position: relative;
+	left: -3px;
+	bottom: 47px;
+}
+
+#submitMessageDiv {
+	position: relative;
+	left: -7px;
+	width: 310px;
+	bottom: 45px;
+	background-color: #13b3bf;
+	border-color: #13b3bf;
+}
+
+.text-danger {
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+    font-family: 'Roboto Slab', serif !important;
+}
+	
+	
+	
+	
 }
 /*
 <div class="footer">
