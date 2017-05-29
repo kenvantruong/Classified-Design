@@ -1038,7 +1038,7 @@ nav.active-nav .rad-menu li a {
 	width: 310px;
 	height: 170px;
 	left: 311px;
-	
+	display: block;
 }
 
 .positionDangerO {
@@ -1069,7 +1069,7 @@ nav.active-nav .rad-menu li a {
 /*
 <div id="leftsideContactDiv">      
    <h3 class="KVTname">Ken Truong</h3>
-   <p class="contactPPP">DonÃ¢â‚¬â„¢t hesitate to contact me anytime!</p>
+   <p class="contactPPP">DonÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t hesitate to contact me anytime!</p>
   <div class="ppEmailNTel">
    <h6>kenvantruong@gmail.com</h6>
    <h6>Tel: 1-707-334-9626</h6>
