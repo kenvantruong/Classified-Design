@@ -147,8 +147,8 @@ ul.tl li .item-detail {
 
 	#kenTruongDiv {
 		position: relative;
-		right: 67px !important;
-		bottom: 120px;
+		right: 58px !important;
+		bottom: 135px;
 		/* top: 1px; */
 		/* margin: 0 auto; */
 	}
@@ -166,9 +166,15 @@ ul.tl li .item-detail {
 
 	#webDeveloperDiv {
 		position: relative;
-		right: 60px;
-		bottom: 130px;
+		right: 0px;
+		bottom: 140px;
 	}
+	
+	.webDeveloperWordTwo {
+		position: relative;
+		top: -8px !important;
+	}
+	
 
 
 	.KLargeLogo {
@@ -200,15 +206,17 @@ ul.tl li .item-detail {
 
 	.paragraphOneDiv {
 		height: 180px!important;
-    	width: 298px!important;
+    	width: 340px!important;
     	position: relative!important;
-    	left: 40px!important;
-    	top: 56px!important;
+    	left: 20px!important;
+    	top: 30px!important;
 
 	}
 
 	.parygraphTHO {
 		font-size: 13px !important;
+		line-height: 20px !important; 
+
 	}
 
 
@@ -231,7 +239,7 @@ form #input-submit {
 
 .styleDownloadResume {
 	position: relative;
-	top: 100px;
+	top: 108px;
 	right: 0px;
 	font-size: 16px
 }
