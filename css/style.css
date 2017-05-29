@@ -145,8 +145,6 @@ hr.style14 {
 
 .resumeDivWrappa {
 	width: 100%;
-
-	
 }
 
 
@@ -191,6 +189,9 @@ hr.style14 {
 	color: white;
 	position: relative;
 	bottom: 95px;
+	/* left: 15px; */
+	width: 100%;
+	/* height: 60%; */
 	line-height: 31px;
 	/* font-family: 'Roboto Slab', serif; */
 	font-family: 'Roboto Slab', sans-serif;
@@ -370,7 +371,7 @@ hr.style14 {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-    height: 862px;
+	height: 862px;
 }
 	
 .bg2 {
@@ -452,6 +453,8 @@ hr.style14 {
 .contactMeDiv {
 	position: relative;
 	top: 60px;
+	width: 100%;
+	/* left: 15px; */
 }
 
 .contactmeTEXT {
@@ -1035,8 +1038,8 @@ nav.active-nav .rad-menu li a {
 #message {
 	position: relative;
 	bottom: 17px;
-	width: 310px;
-	height: 170px;
+	width: 312px;
+	height: 172px;
 	left: 311px;
 	display: block;
 }
@@ -1069,7 +1072,7 @@ nav.active-nav .rad-menu li a {
 /*
 <div id="leftsideContactDiv">      
    <h3 class="KVTname">Ken Truong</h3>
-   <p class="contactPPP">DonÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t hesitate to contact me anytime!</p>
+   <p class="contactPPP">DonÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢t hesitate to contact me anytime!</p>
   <div class="ppEmailNTel">
    <h6>kenvantruong@gmail.com</h6>
    <h6>Tel: 1-707-334-9626</h6>
@@ -1084,7 +1087,7 @@ nav.active-nav .rad-menu li a {
 	position: absolute;
 	/* display: inline-block; */
 	right: 410px;
-	top: 90px;
+	top: 75px;
 }
 
 .KVTname {
