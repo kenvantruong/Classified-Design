@@ -281,6 +281,38 @@
    <a name="contactLink"></a>
     <div class="contactMeDiv">
     <h2 class="contactmeTEXT">Contact Me</h2>
+<div id="leftsideContactDiv">      
+   <h3 class="KVTname">Ken Van Truong</h3>
+   <p class="contactPPP">“Natural born hustler, beast mentality, mission to learn as much as possible. Be the best that one can ever be. It's this hunger inside of him, unstoppable beast that adapts to new technologies and changes.”</p>
+  <div class="ppEmailNTel">
+   <h6>kenvantruong@gmail.com</h6>
+   <h6>Tel: 1-707-334-9626</h6>
+   </div>
+</div> 
+			  <form name="sentMessage" id="contactForm" novalidate>
+			<div class="row">
+			  <div class="col-md-6 nameFormDiv">
+				<div class="form-group nameFormDiv">
+				  <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+				  <p class="help-block text-danger"></p>
+				</div>
+			  </div>
+			  <div class="col-md-6 emailFormDiv">
+				<div class="form-group emailFormDiv">
+				  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+				  <p class="help-block text-danger"></p>
+				</div>
+			  </div>
+			</div>
+			<div class="form-group">
+			  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+			  <p class="help-block text-danger positionDangerO"></p>
+			</div>
+			<div id="success"></div>
+			<button type="submit" id="submitMessageDiv" class="btn btn-default">Send Message</button>
+		  </form>
+      
+<!--
 <form class="cf "method="post" action="contact-proc.php">
   <div class="half left cf">
     <input name="name" type="text" id="input-name" placeholder="Name">
@@ -292,6 +324,7 @@
   </div>  
   <input name ="submit" type="submit" value="Submit" id="input-submit">
 </form>
+-->
  
  
   </div>
@@ -300,8 +333,8 @@
 	<a href="https://github.com/kenvantruong"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></href>
 	<a href="tel:707-334-9626"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></href>
  	<a href="mailto:kenvantruong@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-  	<a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></href>
-  	<a href="https://twitter.com/DevKenVT"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></href>
+  	<a href="https://www.linkedin.com/in/kenvantruong"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></href>
+  	<a href="https://twitter.com/KenVanTruong"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></href>
   	
   	
   </div>
@@ -350,7 +383,8 @@
 
 
 
-
+<script src="javascript/contact_me.js"></script>
+<script src="javascript/jqBootstrapValidation.js"></script>
 <script src="javascript/skillBar.js"></script>
 <script src="javascript/index.js"></script>
 <script type="text/javascript" src="/javascript/jquery-3.2.1.min.js"></script>
