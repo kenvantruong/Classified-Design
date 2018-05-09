@@ -1,0 +1,40 @@
+#testimonials {
+    display: flex;
+    align-items: center;
+    position: relative;
+    line-height: 1.5;
+    .fa-quote-left,.fa-quote-right {
+        content: '';
+        position: absolute;
+        font-size: 5rem;
+        color: lighten($primary, 30%);
+        opacity: .4;
+        z-index: -1;
+    }
+    .fa-quote-left {
+        top: 0%;
+        left: 5%;
+    }
+    .fa-quote-right {
+        bottom: 0%;
+        right: 5%;
+    }
+    p:last-child {
+        color: $primary;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+@media(min-width: 768px) {
+    #testimonials {
+        .fa-quote-left, .fa-quote-right {
+            font-size: 9rem;
+        }
+        .fa-quote-left {
+            top: 10%;
+        }
+        .fa-quote-right {
+            bottom: 10%;
+        }
+    }
+}

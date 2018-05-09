@@ -1,0 +1,30 @@
+#about {
+  letter-spacing: 1.2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  div {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  p {
+    line-height: 1.5;
+    font-size: .80em;
+    margin-top: 0;
+  }
+  font-size: calc(1vw + 1vh + .5vmin);
+  &:after {
+    content: 'about';
+    text-transform: uppercase;
+    color: $primary;
+    font-size: 11em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    z-index: -1;
+    opacity: .10;
+    font-weight: bold;
+  }
+}

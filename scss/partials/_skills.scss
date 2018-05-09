@@ -1,0 +1,47 @@
+#skills {
+  min-height: 100vh;
+  background: $primary url('/images/skills-background.jpg');
+  @include angled-edge('inside top', 'lower right', white);
+  @include angled-edge('inside bottom', 'upper left', white);
+  display: flex;
+  flex-direction: column;
+  // h2 {
+  //   color: white;
+  //   margin-bottom: 0;
+  //   &::after {
+  //     @extend .underline;
+  //     background: white;
+  //   }
+  // }
+}
+
+#skills ul {
+  max-width: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  margin:  auto;
+  li {
+    flex: 1 1 auto;
+    padding: 5px 20px;
+    border-radius: 3px;
+    margin: 8px 5px;
+    color: $primary;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: solid 2px transparent;
+    cursor: default;
+    &:hover {
+      background: $primary;
+      color: white;
+      border-color: white;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #skills ul li:hover {
+    transform: scale(1.5);
+  }
+}

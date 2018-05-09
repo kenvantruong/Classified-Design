@@ -1,0 +1,16 @@
+button {
+  background: none;
+  border: solid 2px $primary;
+  border-radius: 3px;
+  padding: 5px 15px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 10px auto;
+  transition: all .3s ease;
+  &:hover {
+    background: $primary;
+    a {
+      color: white;
+    }
+  }
+}

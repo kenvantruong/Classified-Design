@@ -1,0 +1,43 @@
+header {
+  // margin-top: 50px;
+  min-height: 100vh;
+  background: $primary; // fallback
+  background: linear-gradient(to right, rgba($primary, .5), rgba($secondary, .7)), url('/images/sanfrancisco.jpg') no-repeat center center;
+  background-size: cover;
+  border-style: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  p {
+    margin: auto;
+    width: 80%;
+    @media(min-width: 768px) {
+      width: 60%;
+    }
+  }
+  h1 {
+    font-weight: 100;
+  }
+  a {
+    color: white;
+    font-size: 22px;
+    margin: 0 8px;
+    &:visited, &:hover {
+      color: $primary;
+    }
+  }
+}
+
+header .link-to-portfolio {
+  font-size: 16px;
+  background: white;
+  color: $primary;
+  padding: 2px 8px;
+  border-radius: 3px;
+  &:visited, &:hover, &:active {
+    background: $primary;
+    color: white;
+  }
+}
